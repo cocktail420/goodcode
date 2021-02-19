@@ -1,0 +1,29 @@
+body{
+	font-family: helvetica;
+
+}
+.container{
+	display: grid;
+	grid-template:repeat(1,2fr) /repeat(1,2fr);
+	grid-template-areas:
+	"n n n n" 
+	"b b b b"
+	"f f f f"
+	;
+	grid-gap: 10px;
+}
+
+div#n{
+		grid-area: n;
+	background-color:;
+}
+
+
+
+div#b{
+
+	grid-area: b;
+	background-color: 
+	padding: 50px;
+}
+
